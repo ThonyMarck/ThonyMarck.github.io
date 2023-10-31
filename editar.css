@@ -1,0 +1,150 @@
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+
+/* ==========================================*/
+    /* Movil */
+@media (max-width: 767px){
+  
+    .logo{
+        width:300px;
+        height: 150px;
+        margin-top: 40px;
+        margin-left: 30px;
+        opacity: 0;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+    
+    
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+
+
+}
+
+
+/* ==========================================*/
+    /* TABLET */
+    @media (min-width: 768px) and (max-width: 990px){
+     
+     .logo{
+         width:300px;
+         height: 150px;
+         margin-top: 20px;
+         margin-left: 230px;
+         opacity: 0;
+         animation: aparecer 2s ease-in-out forwards;
+     }
+     
+     @keyframes aparecer {
+         0% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+     }
+     
+   
+ }
+
+
+
+/* ==========================================*/
+    /* PC */
+    @media (min-width: 991px){
+
+        /* styles.css */
+        
+        .logo{
+            width:500px;
+            height: 200px;
+            margin-top: 40px;
+            margin-left: 650px;
+            opacity: 0;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+        
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+   /* ==========================================/*
+    /* Paquetes*/
+
+    .agg{
+        color: white;
+        margin-left: 600px;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+    .reg{
+        color: white;
+        font-size: 30px;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+    .divi{
+        margin-top: 100px;
+        margin-left: 450px;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+    .reg:hover{
+        color: orange;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+    .actualizar{
+        background: orange;
+        border-style: double;
+        margin-top: 30px;
+        height: 40px;
+        color: white;
+        border-width: 6px;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+    .actualizar:hover{
+        box-shadow: 0 0 20px white;
+    }
+
+    .entrada{
+        width: 600px;
+        height: 30px;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+    .input{
+        color: white;
+        width: 1px;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+
+    .divregresar{
+        margin-top: 30px;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+    .main{
+        margin-left: 650px;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+
+    }
+   

@@ -1,0 +1,163 @@
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+
+/* ==========================================*/
+    /* Movil */
+@media (max-width: 767px){
+  
+    .logo{
+        width:300px;
+        height: 150px;
+        margin-top: 40px;
+        margin-left: 30px;
+        opacity: 0;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+    
+    
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+
+
+}
+
+
+/* ==========================================*/
+    /* TABLET */
+    @media (min-width: 768px) and (max-width: 990px){
+     
+     .logo{
+         width:300px;
+         height: 150px;
+         margin-top: 20px;
+         margin-left: 230px;
+         opacity: 0;
+         animation: aparecer 2s ease-in-out forwards;
+     }
+     
+     @keyframes aparecer {
+         0% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+     }
+     
+   
+ }
+
+
+
+/* ==========================================*/
+    /* PC */
+    @media (min-width: 991px){
+
+        /* styles.css */
+        
+        .logo{
+            width:500px;
+            height: 200px;
+            margin-top: 40px;
+            margin-left: 650px;
+            opacity: 0;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+        
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+   /* ==========================================/*
+    /* Paquetes*/
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link {
+        margin: 0 100px; /* Espacio entre los enlaces */
+    }
+
+    .Agregar{
+
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        animation: aparecer 2s ease-in-out forwards;
+     }
+
+     .Agregar:hover{
+        color: orange;
+     }
+
+     .reg{
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        animation: aparecer 2s ease-in-out forwards;
+     }
+
+     .reg:hover{
+        color: orange;
+     }
+
+     
+
+     .tabla{ 
+         animation: aparecer 2s ease-in-out forwards;
+     }
+
+     .editars{
+        color: white;
+        animation: aparecer 2s ease-in-out forwards;
+     }
+
+     .lista{
+        color: white;
+        animation: aparecer 2s ease-in-out forwards;
+     }
+
+     .id{
+        color: white;
+        animation: aparecer 2s ease-in-out forwards;
+     }
+
+   
+     .acciones{
+        color: blue;
+        animation: aparecer 2s ease-in-out forwards;
+     }
+
+     .paquete{
+          color: white;
+          animation: aparecer 2s ease-in-out forwards;
+          
+     }
+
+     .divpaquete{
+        margin-top: 10px;
+     }
+
+
+    }
+   
+
+
+

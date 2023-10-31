@@ -1,0 +1,261 @@
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+
+/* ==========================================*/
+    /* Movil */
+@media (max-width: 767px){
+    /*Barra navegacion*/
+    nav {
+        animation:shadow-drop-center 0.4s linear both
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
+    }
+    
+    li {
+        margin-right: 20px; /* Espaciado entre elementos de la barra de navegación */
+        margin-left: 1px;
+    }
+    
+    /* Estilo de los enlaces */
+    a {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        animation: aparecer 2s ease-in-out forwards;
+        font-size: 20px;
+    }
+    
+    /* Cambiar el color del enlace al pasar el cursor sobre él */
+    a:hover {
+        color: #ff6600;
+    }
+    
+    .logo{
+        width:300px;
+        height: 150px;
+        margin-top: 40px;
+        margin-left: 30px;
+        opacity: 0;
+        animation: aparecer 2s ease-in-out forwards;
+    }
+    
+    
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+ 
+}
+
+
+/* ==========================================*/
+    /* TABLET */
+    @media (min-width: 768px) and (max-width: 990px){
+        /*  barra de navegación */
+     nav {
+         animation:shadow-drop-center 0.4s linear both
+     }
+     
+     ul {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+         display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
+     }
+     
+     li {
+         margin-right: 20px; /* Espaciado entre elementos de la barra de navegación */
+         margin-left: 20px;
+     }
+     
+     /* Estilo de los enlaces */
+     a {
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         text-decoration: none;
+         color: white;
+         font-weight: bold;
+         font-size: 20px;
+         animation: aparecer 2s ease-in-out forwards;
+         margin-right: 100px;
+     }
+     
+     /* Cambiar el color del enlace al pasar el cursor sobre él */
+     a:hover {
+         color: #ff6600;
+     }
+     
+     .logo{
+         width:300px;
+         height: 150px;
+         margin-top: 20px;
+         margin-left: 230px;
+         opacity: 0;
+         animation: aparecer 2s ease-in-out forwards;
+     }
+     
+     @keyframes aparecer {
+         0% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+     }
+     
+ 
+ 
+ }
+
+
+
+/* ==========================================*/
+    /* PC */
+    @media (min-width: 991px){
+
+        /* styles.css */
+        
+        /*  barra de navegación */
+        nav {
+            animation:shadow-drop-center 0.4s linear both
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
+        }
+        
+        li {
+            margin-right: 20px; /* Espaciado entre elementos de la barra de navegación */
+            margin-left: 300px;
+        }
+        
+        /* Estilo de los enlaces */
+        a {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+        
+        /* Cambiar el color del enlace al pasar el cursor sobre él */
+        a:hover {
+            color: #ff6600;
+        }
+        
+        .logo{
+            width:500px;
+            height: 200px;
+            margin-top: 40px;
+            margin-left: 650px;
+            opacity: 0;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+        
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+        .agg{
+            color: white;
+            margin-left: 600px;
+            size: 100px;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+    
+
+        .user{
+            color: white;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+
+        .clave{
+            color: white;
+            margin-left: 12px;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+
+         .divclave{
+            margin-top: 30px;
+            animation: aparecer 2s ease-in-out forwards;
+         }
+    
+        .main{
+            margin-left: 650px;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+
+        .btn{
+            margin-top: 30px;
+            border-style: double;
+            border-color: black;
+            height: 30px;
+            width: 100px;
+            background-color: #ff6600;
+            color: white;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+
+        .btn:hover{
+            box-shadow: 0 0 20px white;
+        }
+
+        .regre{
+            margin-top: 30px;
+            border-style: double;
+            border-color: black;
+            height: 30px;
+            width: 100px;
+            background-color: #ff6600;
+            color: white;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+
+        .regre:hover{
+            box-shadow: 0 0 20px white;
+        }
+
+        .msj{
+            color: white;
+            animation: aparecer 2s ease-in-out forwards;
+        }
+    
+        
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+  
